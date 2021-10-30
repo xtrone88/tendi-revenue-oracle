@@ -1,0 +1,28 @@
+{
+  "name": "tendi-opensea-oracle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && babel src -d lib",
+    "start": "node lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "opensea-js": "^1.2.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.14",
+    "rimraf": "^3.0.2"
+  }
+}
