@@ -6,8 +6,8 @@ import Web3 from "web3"
 const web3 = new Web3(new HDWalletProvider(process.env.PRIVATE_KEY, process.env.PROVIDER_URL))
 
 const revenueContract = new web3.eth.Contract(JSON.parse(process.env.REVENUE_CONTRACT_ABI), process.env.REVENUE_CONTRACT_ADDRESS)
-const killazContract = new web3.eth.Contract(JSON.parse(process.env.NFT_CONTRACT_ABI), process.env.TEST_KILLAZ_CONTRACT_ADDRESS)
-const ladyKillazContract = new web3.eth.Contract(JSON.parse(process.env.NFT_CONTRACT_ABI), process.env.TEST_LADYKILLAZ_CONTRACT_ADDRESS)
+const killazContract = new web3.eth.Contract(JSON.parse(process.env.NFT_CONTRACT_ABI), process.env.KILLAZ_CONTRACT_ADDRESS)
+const ladyKillazContract = new web3.eth.Contract(JSON.parse(process.env.NFT_CONTRACT_ABI), process.env.LADYKILLAZ_CONTRACT_ADDRESS)
 
 const account = () => {
   return new Promise((resolve, reject) => {
