@@ -14,8 +14,6 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "opensea-js": "^1.2.1",
-    "request": "^2.88.2",
-    "request-promise-native": "^1.0.9",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.6.0"
   },
