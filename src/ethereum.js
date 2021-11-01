@@ -1,7 +1,7 @@
-require("dotenv").config()
-
 import HDWalletProvider from "truffle-hdwallet-provider"
 import Web3 from "web3"
+
+require("dotenv").config()
 
 const web3 = new Web3(new HDWalletProvider(process.env.PRIVATE_KEY, process.env.PROVIDER_URL))
 

@@ -1,7 +1,7 @@
-require("dotenv").config();
-
 import { OpenSeaAPI, Network } from 'opensea-js'
 import { getTotalKillaz, getTotalLadyKillaz, startUpdate, endUpdate, updateListing } from './ethereum'
+
+require("dotenv").config();
 
 const seaApi = new OpenSeaAPI({
   networkName: Network.Main
