@@ -2,7 +2,7 @@
 ### Install
 yarn install
 ### Config
-Rename .env.example to .env and open it, then fill the proper arguments
+Rename .env.example to .env and open it, then fill the proper arguments<br/>
 PRIVATE_KEY=Your mainnet account's private key<br/>
 PROVIDER_URL=Your mainnet infra url<br/>
 REVENUE_CONTRACT_ADDRESS=Deployed Revenue Contract's address on mainnet
