@@ -13,6 +13,7 @@ REVENUE_CONTRACT_ADDRESS=Deployed Revenue Contract's address on mainnet<br>
 
 ![image](https://user-images.githubusercontent.com/82226713/140096672-7d4365b6-c53a-4f56-acf8-896c79c9f286.png)
 As you can see, private key and privider url are for the initialization of web3js to interact with Revenue contract and update states of opensea listing.
+Keep in mind that private key is for oracle's owner set by tendi-revenue-dist.
 ### Setting Execution Time
 Open src/index.js and set the execution time as cron time format at line 4.<br>
 Please reference https://www.npmjs.com/package/node-schedule<br>
